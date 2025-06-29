@@ -1,0 +1,14 @@
+{
+    "functions": {
+      "api/reel.py": {
+        "runtime": "python3.9"
+      }
+    },
+    "builds": [
+      {
+        "src": "api/reel.py",
+        "use": "@vercel/python"
+      }
+    ]
+  }
+  
